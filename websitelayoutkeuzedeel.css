@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    height: calc(100vh - 40px);
+}
+.segment {
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.segment1, .segment2, .segment4, .segment5 {
+    flex: 1;
+}
+.segment3 {
+    flex: 100%;
+}
+.segment3 h2 {
+    margin-top: 20px;
+}
+.segment3 p {
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column {
+    flex: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column-full {
+    flex: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+.segment1-content {
+    text-align: center;
+}
+.segment1-content button {
+    margin-top: 20px;
+}
