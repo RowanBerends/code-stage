@@ -1,0 +1,14 @@
+#ul1 {list-style-type: circle;}
+#ul2 {list-style-type: square;}
+#ul3 {list-style-type: lower-latin;}
+#ul4 {list-style-type: upper-roman;}
+#ul5 {list-style-type: decimal-leading-zero;}
+#ul6 {list-style-type: decimal;}
+div {
+    border: 20px solid red;
+    border-radius: 25px;
+    background-color: orangered
+  }
+#extraul {content: "•"; 
+  padding-right: 8px;
+  color: blue;}
